@@ -1,0 +1,45 @@
+@media all and (min-width: 900px)
+{
+    body
+    {
+        background: hsl(229, 57%, 11%) url("images/bg-desktop.png") no-repeat 0 50vh / 100vw 50vh;
+    }
+    main
+    {
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin:0;
+    }
+    #fylo-pannel
+    {
+        width: 20%;
+        margin-right: 2em;
+    }
+    #stats-pannel
+    {
+        width:40%;
+    }
+    #space-left-nb
+    {
+        /* position: absolute; */
+        top:auto;
+        left:auto;
+        bottom: 2.5em;
+        right: 0em;
+        width: 30%;
+
+    }
+    #arrow
+    {
+        position: absolute;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 1em 1em 0;
+        border-color: transparent #ffffff transparent transparent;
+    }
+}
